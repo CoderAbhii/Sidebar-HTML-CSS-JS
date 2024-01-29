@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sidebar Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="btn">
+        <span class="fas fa-bars"></span>
+    </div>
+    <nav class="sidebar">
+        <div class="text">
+            Side Menu
+        </div>
+        <ul>
+            <li class="active"><a href="#">Dashboard</a></li>
+            <li class="has-dropdown">
+                <a href="#" class="nav-item">Toggle First
+                    <span class="fas fa-caret-down"></span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                    <li><a href="#">Item 4</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">
+                <a href="#" class="nav-item">Toggle Second
+                    <span class="fas fa-caret-down"></span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">
+                <a href="#" class="nav-item">Toggle Third
+                    <span class="fas fa-caret-down"></span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="header">
+            Sidebar Menu HTML | CSS | JAVASCRIPT
+        </div>
+        <p>
+            Content Body
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
